@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ColorPicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.effect.Bloom?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.effect.SepiaTone?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Ellipse?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.navbar.menuController">
+   <children>
+      <TabPane prefHeight="500.0" prefWidth="700.0" style="-fx-border-color: #FFFFFF;" tabClosingPolicy="UNAVAILABLE">
+         <tabs>
+            <Tab fx:id="button" text="HOME ">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #F5F5DC;">
+                     <children>
+                        <ImageView fitHeight="246.0" fitWidth="312.0" layoutX="236.0" layoutY="117.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@icons/first.png" />
+                           </image>
+                        </ImageView>
+                        <Text layoutX="515.0" layoutY="446.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Créer par T.Bertrand &amp; Selestino" wrappingWidth="174.54296875" />
+                        <Text layoutX="309.0" layoutY="447.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\@ copy right 2024" />
+                        <Text layoutX="15.0" layoutY="449.0" strokeType="OUTSIDE" strokeWidth="0.0" text="JavaFx + Scene Builder" />
+                        <Text layoutX="198.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" text="B I E N V E N U E ! S U R" textAlignment="CENTER" wrappingWidth="322.03515625">
+                           <font>
+                              <Font name="System Bold" size="36.0" />
+                           </font>
+                        </Text>
+                     </children>
+                     <effect>
+                        <SepiaTone level="0.61" />
+                     </effect>
+                  </AnchorPane>
+               </content>
+            </Tab>
+            <Tab text="DIGITAL WORLD">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #0A1821;">
+                     <children>
+                        <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #F5F5DC;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                           <children>
+                              <Text layoutX="45.0" layoutY="121.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Le monde numérique est devenu omniprésent dans notre société moderne, jouant un rôle crucial dans tous les aspects de la vie quotidienne. Il facilite la communication instantanée à travers le monde, permettant aux individus de se connecter et de collaborer sans limitation géographique. De plus, le monde numérique offre un accès sans précédent à l'information, permettant aux utilisateurs de rechercher, d'apprendre et de s'informer sur une multitude de sujets en quelques clics seulement. Enfin, il alimente l'innovation et la croissance économique en facilitant le développement de nouvelles technologies, de nouveaux services et de nouvelles industries. En somme, le monde numérique a profondément transformé la façon dont nous vivons, travaillons et interagissons avec notre environnement." textAlignment="JUSTIFY" wrappingWidth="612.443359375" />
+                              <Text layoutX="45.0" layoutY="310.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Le monde numérique a connu une évolution fulgurante au fil des décennies, passant d'une ère de simples ordinateurs de bureau à une ère de connectivité omniprésente grâce aux appareils mobiles et à Internet. Cette évolution a été caractérisée par une miniaturisation des technologies, rendant les dispositifs numériques plus compacts et plus accessibles que jamais. De plus, les avancées dans le domaine de l'intelligence artificielle et de l'analyse de données ont ouvert de nouvelles perspectives, permettant aux machines de prendre des décisions et de fournir des informations de manière autonome. Enfin, l'émergence de concepts tels que l'Internet des objets (IoT) et la réalité augmentée (AR) promettent de transformer encore davantage notre expérience " textAlignment="JUSTIFY" wrappingWidth="612.2265625" />
+                              <Text layoutX="160.0" layoutY="43.0" strokeType="OUTSIDE" strokeWidth="0.0" text="L E   M O N D E   N U M E R I Q U E">
+                                 <font>
+                                    <Font name="System Bold" size="24.0" />
+                                 </font>
+                              </Text>
+                           </children>
+                           </Pane>
+                           <Label alignment="CENTER" contentDisplay="CENTER" layoutX="101.0" layoutY="255.0" prefWidth="506.0" style="-fx-background-color: #333333;" text="L'évolution du monde numérique" textAlignment="JUSTIFY" textFill="BEIGE">
+                              <font>
+                                 <Font size="18.0" />
+                              </font>
+                              <padding>
+                                 <Insets left="10.0" />
+                              </padding>
+                           </Label>
+                           <Separator layoutX="101.0" layoutY="285.0" prefHeight="0.0" prefWidth="506.0" />
+                           <Label alignment="CENTER" contentDisplay="CENTER" layoutX="99.0" layoutY="68.0" prefHeight="27.0" prefWidth="506.0" style="-fx-background-color: #333333;" text="L'importance du monde numérique" textAlignment="JUSTIFY" textFill="BEIGE">
+                              <font>
+                                 <Font size="18.0" />
+                              </font>
+                              <padding>
+                                 <Insets left="10.0" />
+                              </padding>
+                           </Label>
+                        <Separator layoutX="100.0" layoutY="98.0" prefHeight="0.0" prefWidth="506.0" />
+                     </children>
+                  </AnchorPane>
+               </content>
+            </Tab>
+            <Tab text="CHANGE COLOR">
+               <content>
+                  <AnchorPane fx:id="Layout" minHeight="0.0" minWidth="0.0" prefHeight="481.0" prefWidth="698.0" style="-fx-background-color: #F5F5DC;">
+                     <children>
+                        <Label layoutX="189.0" layoutY="375.0" text="Sélectionner un  couleur" textFill="#333333">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <ColorPicker fx:id="colorpicker" layoutX="377.0" layoutY="369.0" onAction="#colorpicker" prefHeight="30.0" prefWidth="198.0" promptText="Veuillez selectionner une couleur">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                           <effect>
+                              <Glow />
+                           </effect></ColorPicker>
+                        <Text layoutX="94.0" layoutY="86.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Voici un exemple de technique numérique fascinante : la capacité à changer de couleur à volonté. À travers ce logiciel, nous illustrons l'essence même de la puissance numérique en permettant aux utilisateurs de contrôler et de personnaliser les couleurs selon leurs préférences. Cette capacité démontre la flexibilité et l'adaptabilité offertes par les outils numériques dans la création d'expériences interactives. En explorant cette fonctionnalité, nous plongeons dans le vaste potentiel offert par le monde numérique pour transformer et enrichir notre quotidien. Par cette simple action de changer de couleur, nous embrassons l'évolution constante de la technologie et son impact sur notre manière d'interagir avec notre environnement." textAlignment="JUSTIFY" wrappingWidth="520.802734375">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Text>
+                        <Ellipse fill="#333333" layoutX="352.0" layoutY="171.0" opacity="0.14" radiusX="340.0" radiusY="167.0" stroke="BLACK" strokeLineCap="ROUND" strokeType="INSIDE" />
+                     </children>
+                  </AnchorPane>
+               </content>
+            </Tab>
+            <Tab text="CONTACTS">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="481.0" prefWidth="698.0" style="-fx-background-color: #F5F5DC;">
+                     <children>
+                        <Text fill="#333333" layoutX="218.0" layoutY="52.0" strokeType="OUTSIDE" strokeWidth="0.0" text="NOUS CONTACTER" textAlignment="CENTER" wrappingWidth="262.15625">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                           <effect>
+                              <Bloom>
+                                 <input>
+                                    <Blend>
+                                       <topInput>
+                                          <Shadow />
+                                       </topInput>
+                                    </Blend>
+                                 </input>
+                              </Bloom>
+                           </effect>
+                        </Text>
+                        <Text fill="#333333" layoutX="74.0" layoutY="97.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nom complet">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Text>
+                        <Text fill="#333333" layoutX="74.0" layoutY="161.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Votre Email">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Text>
+                        <Text fill="#333333" layoutX="74.0" layoutY="228.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Vos commentaires ">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Text>
+                        <Button layoutX="74.0" layoutY="377.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="131.0" style="-fx-background-color: #333333;" text="Envoyer" textFill="BEIGE">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Button>
+                        <TextArea layoutX="74.0" layoutY="103.0" prefHeight="37.0" prefWidth="500.0" />
+                        <TextArea layoutX="74.0" layoutY="166.0" prefHeight="38.0" prefWidth="500.0" />
+                        <TextArea layoutX="74.0" layoutY="235.0" prefHeight="123.0" prefWidth="562.0" />
+                     </children>
+                  </AnchorPane>
+               </content>
+               <styleClass>
+                  <String fx:value="round-border" />
+                  <String fx:value="secondary-color" />
+               </styleClass>
+            </Tab>
+         </tabs>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </TabPane>
+   </children>
+</AnchorPane>
